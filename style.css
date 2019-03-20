@@ -1,0 +1,24 @@
+.container{
+    margin: 50px 0 0 50px;
+}
+#txt{
+    border: none;
+    border-bottom: #555555 dashed 2px;
+}
+
+.fa-check{
+    color: green;
+}
+.fa-check:hover{
+    color: darkgreen;
+}
+.fa-times{
+    color: red;
+}
+.fa-times:hover{
+    color: darkred;
+}
+.fa-edit{
+    display: none;
+    color: blue;
+}

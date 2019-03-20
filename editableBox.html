@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Editable Box</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <input id="txt" placeholder="Company Name" onblur="checkHandler()"/> <!-- size="10" readonly="readonly" -->
+        <i class="fas fa-times" id="cross" onclick="crossHandler()"></i>
+        <i class="fas fa-check" id="check" onclick="checkHandler()"></i>
+        <i class="far fa-edit"  id="edit" onclick="editHandler()"></i>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
